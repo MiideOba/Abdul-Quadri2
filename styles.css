@@ -1,0 +1,53 @@
+/* Global */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Poppins', sans-serif; background: #0f172a; color: #f8fafc; line-height: 1.6; }
+a { color: #ffd700; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Navigation */
+nav { display: flex; justify-content: space-between; align-items: center; background: #1e293b; padding: 15px 30px; position: sticky; top: 0; z-index: 100; }
+nav .logo { font-size: 1.5rem; font-weight: bold; animation: slideIn 3s infinite alternate; }
+nav ul { display: flex; gap: 20px; list-style: none; }
+nav ul li a { color: #f1f5f9; font-weight: 500; }
+
+/* Hero */
+.hero { text-align: center; padding: 60px 20px; }
+.hero-pic { width: 300px; height: 400px; object-fit: cover; border-radius: 10px; margin-bottom: 20px; }
+.hero h1 { font-size: 2.5rem; margin-bottom: 10px; }
+.hero h2 { font-size: 1.2rem; margin-bottom: 20px; }
+.btn { background: #ffd700; color: #0f172a; padding: 10px 25px; border-radius: 25px; font-weight: bold; transition: 0.3s; }
+.btn:hover { transform: scale(1.05); }
+
+/* Highlights */
+.highlights .cards { display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; margin-top: 20px; }
+.highlights .card { background: #1e293b; padding: 20px; border-radius: 8px; }
+
+/* About */
+.about { max-width: 800px; margin: 40px auto; padding: 20px; }
+.about h1 { font-size: 2rem; margin-bottom: 20px; }
+.about p { margin-bottom: 20px; }
+.about hr { border: none; border-top: 1px solid #334155; margin: 20px 0; }
+
+/* Gallery */
+.gallery { padding: 40px; }
+.gallery h1 { margin-bottom: 20px; }
+.gallery .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+.gallery img { width: 100%; border-radius: 8px; }
+figcaption { margin-top: 5px; font-size: 0.9rem; }
+
+/* Contact */
+.contact { text-align: center; padding: 40px; }
+.socials { display: flex; flex-direction: column; gap: 15px; margin-top: 20px; }
+
+/* Art */
+.art { text-align: center; padding: 40px; }
+.art h1 { font-size: 2rem; margin-bottom: 10px; }
+
+/* Footer */
+footer { text-align: center; background: #1e293b; padding: 20px; margin-top: 40px; font-size: 0.9rem; }
+
+/* Animations */
+@keyframes slideIn {
+  from { transform: translateX(-20px); }
+  to { transform: translateX(20px); }
+}
