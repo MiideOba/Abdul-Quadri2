@@ -3,15 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Abdul-Quadri Ayomide (MiideOba)</title>
+  <title>MiideOba | Home</title>
   <link rel="stylesheet" href="styles.css">
-  <script src="script.js" defer></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <script defer src="script.js"></script>
 </head>
 <body>
-  <!-- Navigation -->
-  <nav>
-    <div class="logo">Learn all about me</div>
-    <ul>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo" id="logo-text">Learn all about me</div>
+    <ul class="nav-links">
       <li><a href="index.html">Homepage</a></li>
       <li><a href="about.html">About Me</a></li>
       <li><a href="memories.html">Memories</a></li>
@@ -22,22 +23,14 @@
 
   <!-- Hero Section -->
   <header class="hero">
-    <img src="profile" alt="Abdul-Quadri Ayomide" class="hero-pic">
-    <h1>Abdul-Quadri Ayomide Al-Ameen <br> <span>(MiideOba)</span></h1>
-    <h2 class="animated-text"></h2>
-    <a href="about.html" class="btn">Discover My Story</a>
+    <div class="hero-content">
+      <h1>Abdul-Quadri Ayomide Al-Ameen <br> <span>(MiideOba)</span></h1>
+      <p id="animated-roles">Inspiring Leader, Public Speaker, Volunteer, Agri-tech Enthusiast, and Writer</p>
+    </div>
+    <img src="profile.jpg" alt="My picture" class="profile-rect">
   </header>
 
-  <!-- Extras -->
-  <section class="highlights">
-    <h2>Highlights</h2>
-    <div class="cards">
-      <div class="card">🎓 B.Agric Graduate</div>
-      <div class="card">🏆 Former NAAS OOU President </div>
-      <div class="card">🤝 Volunteer | Public Speaker | Leader</div>
-    </div>
-  </section>
-
+  <!-- Footer -->
   <footer>
     <p>© 2025 Abdul-Quadri Ayomide. All rights reserved.</p>
   </footer>
